@@ -44,9 +44,6 @@ export const Hero = () => {
               </video>
             </div>
           </div>
-          <p className="text-sm md:text-base text-muted-foreground text-center mt-4 font-semibold">
-            ✅ Você caiu na LP certa! Esta é uma oportunidade real e exclusiva.
-          </p>
         </div>
 
         {/* Subtitle */}
