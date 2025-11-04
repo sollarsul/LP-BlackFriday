@@ -39,12 +39,12 @@ export const Hero = () => {
                 className="w-full h-full"
                 poster="/placeholder.svg"
               >
-                <source src="" type="video/mp4" />
+                <source src="/videos/videolP.mov" type="video/quicktime" />
                 Seu navegador não suporta o elemento de vídeo.
               </video>
             </div>
           </div>
-        </div>
+        </div>npm
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl lg:text-3xl text-foreground font-semibold mb-12 max-w-4xl mx-auto leading-relaxed">
