@@ -23,16 +23,42 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
+        {/* Headline - Urgência */}
+        <div className="mb-6 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight text-primary mb-4">
+            ESSA É A ÚLTIMA OPORTUNIDADE DO ANO
+          </h2>
+        </div>
+
         {/* Main Title */}
         <div className="mb-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight mb-4">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight mb-4">
             <span className="block bg-gradient-to-r from-secondary via-primary to-secondary bg-clip-text text-transparent animate-shimmer bg-[length:200%_auto]">
               BLACK DAS BLACKS
             </span>
             <span className="block text-primary flex items-center justify-center gap-3 mt-2">
-              SOLLAR SUL <Zap className="w-12 h-12 md:w-16 md:h-16 animate-pulse-glow" />
+              SOLLAR SUL <Zap className="w-10 h-10 md:w-14 md:h-14 animate-pulse-glow" />
             </span>
           </h1>
+        </div>
+
+        {/* Video Section */}
+        <div className="mb-10 max-w-3xl mx-auto">
+          <div className="relative rounded-2xl overflow-hidden border-4 border-primary shadow-elegant animate-scale-in">
+            <div className="aspect-video bg-card/30 backdrop-blur-sm">
+              <video 
+                controls 
+                className="w-full h-full"
+                poster="/placeholder.svg"
+              >
+                <source src="" type="video/mp4" />
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+          </div>
+          <p className="text-sm md:text-base text-muted-foreground text-center mt-4 font-semibold">
+            ✅ Você caiu na LP certa! Esta é uma oportunidade real e exclusiva.
+          </p>
         </div>
 
         {/* Subtitle */}
