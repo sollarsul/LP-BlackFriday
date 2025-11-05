@@ -44,7 +44,7 @@ export const Hero = () => {
               </video>
             </div>
           </div>
-        </div>npm
+        </div>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl lg:text-3xl text-foreground font-semibold mb-12 max-w-4xl mx-auto leading-relaxed">
