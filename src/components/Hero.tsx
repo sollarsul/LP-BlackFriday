@@ -3,7 +3,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 import { Zap } from "lucide-react";
 
 export const Hero = () => {
-  const whatsappLink = "https://wa.me/"; // Add your WhatsApp group link here
+  const whatsappLink = "https://chat.whatsapp.com/BhDq1VHJ1Eb3mFNiwRaWmi?mode=wwt";
 
   return (
     <section 
