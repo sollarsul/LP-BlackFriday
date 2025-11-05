@@ -37,7 +37,7 @@ export const Hero = () => {
               <video 
                 controls 
                 className="w-full h-full"
-                poster="/placeholder.svg"
+                poster="/videos/videoIP-poster.jpg"
               >
                 <source src="/videos/videolP.mp4" type="video/mp4" />
                 Seu navegador não suporta o elemento de vídeo.
