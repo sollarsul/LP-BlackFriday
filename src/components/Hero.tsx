@@ -52,15 +52,28 @@ export const Hero = () => {
         </p>
 
         {/* CTA Button */}
-        <Button 
-          variant="hero"
-          size="lg"
-          className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-6 md:py-8 h-auto"
-          onClick={() => window.open(whatsappLink, '_blank')}
-        >
-          <Zap className="mr-3 h-6 w-6" />
-          Entrar no Grupo VIP da Black das Blacks
-        </Button>
+          <Button
+              variant="hero"
+              size="lg"
+              className="
+    flex items-center justify-center gap-3
+    text-xs sm:text-sm md:text-base lg:text-lg
+    font-semibold tracking-wide
+    px-3 sm:px-5 md:px-8
+    py-3 sm:py-4 md:py-5
+    h-auto
+    w-full sm:w-auto
+    max-w-[320px] sm:max-w-none
+    mx-auto
+    break-words whitespace-normal text-center
+    transition-all duration-300
+    hover:scale-105 active:scale-95
+  "
+              onClick={() => window.open(whatsappLink, '_blank')}
+          >
+              <Zap className="mr-2 h-5 w-5 sm:h-6 sm:w-6 shrink-0" />
+              Entrar no Grupo VIP da Black das Blacks
+          </Button>
 
         {/* Floating badge */}
         <div className="mt-12 animate-float">
