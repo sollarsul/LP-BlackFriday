@@ -55,7 +55,7 @@ export const Hero = () => {
         <Button 
           variant="hero"
           size="lg"
-          className="text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 h-auto"
+          className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-6 md:py-8 h-auto"
           onClick={() => window.open(whatsappLink, '_blank')}
         >
           <Zap className="mr-3 h-6 w-6" />
